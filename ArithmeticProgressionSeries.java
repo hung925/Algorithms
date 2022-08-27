@@ -1,5 +1,10 @@
 package Algorithms;
 
+/*
+ * Given a first element a and common difference d of an arithmetic progression.
+ *  Write a program to print the first n elements of progression. 
+ */
+
 public class ArithmeticProgressionSeries {
 
     public static void printAP(int a, int d, int n){
