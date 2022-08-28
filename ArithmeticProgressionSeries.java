@@ -16,8 +16,17 @@ public class ArithmeticProgressionSeries {
         System.out.println();
     }
 
+    
+    public static void printAPNthTerm(int a, int d, int n){
+        System.out.println("a = " + a +", d = " + d + ", n = " + n);
+        int term = a + (n-1)*d;
+        System.out.println(n + "th term: " + term);
+    }
+
     public static void main(String[] args) {
         printAP(1, 2, 5);
         printAP(2, 5, 7);
+        printAPNthTerm(1, 2, 5);
+        printAPNthTerm(2, 5, 7);
     }
 }
